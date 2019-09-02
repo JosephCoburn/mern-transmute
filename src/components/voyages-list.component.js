@@ -61,9 +61,6 @@ export default class VoyagesList extends Component {
     return (
       <div>
         <h2 className="my-voyages-header">My Voyages</h2> 
-        <h6>
-          <Link to="/sort" className="table-filters-first">Sort by: </Link>
-        </h6>
         <table className="table table-striped">
           <thead style={{backgroundColor: "#e3fdee"}}>
             <tr>

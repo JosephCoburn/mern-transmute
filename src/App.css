@@ -56,32 +56,6 @@
   float: right;
 }
 
-.sort-by {
-  color: #5ebeff;
-  margin: 0px 0px 0px 20px;
-  float: left;
-}
-
-.sort-by--table {
-  font-size: 26px;
-  width: 120px;
-  margin: 0px 0px 0px 20px;
-  float: left;
-}
-
-.sort-by-region {
-  color: #5ebeff;
-  margin: 0px 0px 0px 20px;
-  float: left;
-}
-
-.sort-by-region--table {
-  font-size: 26px;
-  width: 210px;
-  margin: 0px 0px 0px 20px;
-  float: left;
-}
-
 .table-filters-first {
   color: #6e6e6e;
   margin: 10px 15px 0px 0px;

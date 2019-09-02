@@ -5,7 +5,7 @@ const Navbar = (props) => {
 let nav = props.user ?
   <nav className="navbar navbar-light navbar-expand">
   <div className="mr-auto">
-    <Link to="/" className="page-title navbar-brand">Travel Tracker</Link>
+    <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>
   <ul className="navbar-nav ml-auto">
     <li className="navbar-item">
@@ -26,7 +26,7 @@ let nav = props.user ?
 :
   <nav className="navbar navbar-light navbar-expand">
   <div className="mr-auto">
-    <Link to="/" className="page-title navbar-brand">Travel Tracker</Link>
+    <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>
   <ul className="navbar-nav ml-auto">
     <li className="navbar-item">

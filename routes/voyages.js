@@ -10,7 +10,6 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
-  console.log('heloooooooooo')
   const date = Date.parse(req.body.date);
   const region = req.body.region;
   const country = req.body.country;

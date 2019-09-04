@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.4",
+    "nodemon": "^1.19.2",
     "react": "^16.8.6",
     "react-addons-test-utils": "^15.6.2",
     "react-autosuggest": "^9.4.3",

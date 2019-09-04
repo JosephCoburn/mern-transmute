@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
 let nav = props.user ?
-  <nav className="navbar navbar-light navbar-expand">
+  <nav className="navbar navbar-expand">
   <div className="mr-auto">
     <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>
@@ -24,7 +24,7 @@ let nav = props.user ?
   </ul>
   </nav>
 :
-  <nav className="navbar navbar-light navbar-expand">
+  <nav className="navbar navbar-expand">
   <div className="mr-auto">
     <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>

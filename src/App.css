@@ -1,29 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap" );
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica&display=swap" );
 
 *{
-  font-family: 'Lobster', cursive;
+  font-family: 'IM Fell DW Pica', serif;
   box-sizing: border-box;
 }
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -63,11 +46,89 @@
 }
 
 .navbar {
-  background-color: #e3f2fd;
+  background-color: rgb(21, 21, 21);
 }
 
 .navbar-brand {
   font-size: 28px;
+  color: #FFD700;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.navbar-brand:hover {
+  font-size: 28px;
+  color: #FFD700;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.navbar-brand:link {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #C0C0C0;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.nav-link:hover {
+  color: #C0C0C0;
+  text-shadow:0px 0px 15px rgb(239, 239, 239);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.nav-link:link {
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+img:hover{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 30px 0px #FFD700;
+  -moz-box-shadow:    0px 0px 30px 0px #FFD700;
+  box-shadow:         0px 0px 30px 0px #FFD700;
+}
+
+.enter {
+  padding: 20px 0 0 0;
+  color: #C0C0C0;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.enter:hover {
+  text-decoration: none;
+  color: #C0C0C0;
+  text-shadow:0px 0px 15px rgb(239, 239, 239);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .form-control {
@@ -78,11 +139,60 @@
   margin: 0 0 10px 0;
 }
 
-@keyframes App-logo-spin {
+.container {
+  padding: 0;
+}
+
+.center-text {
+  margin: 20% auto;
+  text-align: center;
+}
+
+div.definition {
+  max-width: 45%;
+  font-style: italic;
+}
+
+#logoCaption {
+  padding: 40px 0 0 0;
+}
+
+.fadeIn {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
   from {
-    transform: rotate(0deg);
+      opacity:0;
   }
   to {
-    transform: rotate(360deg);
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
   }
 }

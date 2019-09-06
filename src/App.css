@@ -164,6 +164,10 @@ div.definition {
   -o-animation: fadein 2s; /* Opera */
 }
 
+.form-horizontal {
+  padding: 30% 0 0 0;
+}
+
 @keyframes fadein {
   from {
       opacity:0;

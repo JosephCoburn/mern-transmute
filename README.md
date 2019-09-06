@@ -1,7 +1,7 @@
 # Transmute
 
 #### Description
-*Visualize your growth and become your best version! Commit to yourself and declare the habits you want to integrate into your life. Track these daily habits and watch as your progress builds.* 
+*Visualize your growth and become the best version of yourself! Commit to yourself and declare the habits you want to integrate into your life. Track these daily habits and watch as your progress builds.* 
 
 <!-- [![Open App](imgur screenshot)](heroku link) -->
 

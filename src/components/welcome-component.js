@@ -35,18 +35,23 @@ class WelcomePage extends Component {
     return (
 
         <div className="center-text">
-          <a className="center-text fadeIn" href="/login"><img src="enter1.png"></img></a>
+          <a className="center-text fadeInOne" href="/login"><img src="enter1.png" className="glowGold"></img></a>
           <a className="center-text" href="/login">
-            <div className="container enter fadeIn">
-              <h4 id="logoCaption" className="enter">
+            <div className="container enter fadeInTwo">
+              <h4 id="logoCaption" className="glowSilver">
                 TRANSMUTE:
               </h4>
             </div>
-            <div className="container definition enter fadeIn">
-              <h6 className="fadeIn">
+            <div className="container definition">
+              <h6 className="fadeInThree glowSilver">
               to change or alter in form, 
               essence, or nature, especially 
               to a higher form
+              </h6>
+            </div>
+            <div className="container definition fadeInFour">
+              <h6 className="lowestInstruction">
+                click to enter
               </h6>
             </div>
           </a>

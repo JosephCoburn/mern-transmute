@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
 let nav = props.user ?
-  <nav className="navbar navbar-expand fadeInOne">
+  <nav className="navbar navbar-expand">
   <div className="mr-auto">
-    <Link to="/" className="page-title navbar-brand fadeInOne">Transmute</Link>
+    <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>
   <ul className="navbar-nav ml-auto">
     <li className="navbar-item">
-      <Link to='' className='nav-link fadeInOne' onClick={props.handleLogout}>Logout</Link>
+      <Link to='' className='nav-link' onClick={props.handleLogout}>Logout</Link>
     </li>
   </ul>
   <ul className="navbar-nav">
@@ -24,16 +24,16 @@ let nav = props.user ?
   </ul>
   </nav>
 :
-  <nav className="navbar navbar-expand fadeInOne">
+  <nav className="navbar navbar-expand">
   <div className="mr-auto">
-    <Link to="/" className="page-title navbar-brand fadeInOne">Transmute</Link>
+    <Link to="/" className="page-title navbar-brand">Transmute</Link>
   </div>
   <ul className="navbar-nav ml-auto">
     <li className="navbar-item">
-      <Link to='/login' className='nav-link fadeInOne'>Login</Link>
+      <Link to='/login' className='nav-link'>Login</Link>
     </li>
     <li className="navbar-item">
-      <Link to='/signup' className='nav-link fadeInOne'>Signup</Link>
+      <Link to='/signup' className='nav-link'>Signup</Link>
     </li>
   </ul>
   </nav>
